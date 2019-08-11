@@ -1,24 +1,27 @@
+//_variables import
 @import "variables";
-@import "../blocks/block";
+//BEM import
+@import "../blocks/html";
+@import "../blocks/body";
 // connecting fonts
 @font-face {
-  font-family: 'Museo Sans Cyrl 500';
+  font-family: 'MuseoSansCyrl';
   src: url('../fonts/MuseoSans/MuseoSansCyrl-500.eot');
   src: local('MuseoSansCyrl-500'),
   url('../fonts/MuseoSans/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
   url('../fonts/MuseoSans/MuseoSansCyrl-500.woff') format('woff'),
   url('../fonts/MuseoSans/MuseoSansCyrl-500.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Museo Sans Cyrl 700';
+  font-family: 'MuseoSansCyrl';
   src: url('../fonts/MuseoSans/MuseoSansCyrl-700.eot');
   src: local('MuseoSansCyrl-700'),
   url('../fonts/MuseoSans/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
   url('../fonts/MuseoSans/MuseoSansCyrl-700.woff') format('woff'),
   url('../fonts/MuseoSans/MuseoSansCyrl-700.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
@@ -29,16 +32,6 @@
   url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff') format('woff'),
   url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf') format('truetype');
   font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'HelveticaNeueCyr';
-  src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot');
-  src: local('HelveticaNeueCyr-Light'),
-  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff') format('woff'),
-  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf') format('truetype');
-  font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -59,6 +52,16 @@
   url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format('woff'),
   url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot');
+  src: local('HelveticaNeueCyr-Light'),
+  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff') format('woff'),
+  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -87,4 +90,8 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  outline: 1px dashed gray; //use only for test
+}
+
 
