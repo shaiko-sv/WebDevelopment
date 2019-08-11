@@ -1,16 +1,17 @@
 $widthMain: 1920px;
 $widthMaxContent: 1150px;
 
-$fontMain: "Helvetica Neue Cyr";
-$fontMainRoman: "Helvetica Neue Cyr - Roman";
-$fontMainThin: "Helvetica Neue Cyr - Thin";
-$fontMainLight: "Helvetica Neue Cyr - Light";
-$fontMainMedium: "Helvetica Neue Cyr - Medium";
-$fontMainBlack: "Helvetica Neue Cyr - Black";
-$fontSecondary500: "Museo Sans Cyrl -500";
-$fontSecondary700: "Museo Sans Cyrl -700";
+$fontMain: normal 1rem "HelveticaNeueCyr";
+$fontMainRoman: normal 1rem "HelveticaNeueCyr";
+$fontMainThin: 100 1rem "HelveticaNeueCyr";
+$fontMainLight: 300 1rem "HelveticaNeueCyr";
+$fontMainMedium: 500 1rem "HelveticaNeueCyr";
+$fontMainBlack: bold 1rem "HelveticaNeueCyr";
+$fontSecondary500: 500 1rem "MuseoSansCyrl";
+$fontSecondary700: 700 1rem "MuseoSansCyrl";
 $fontRubl: "ALS Rubl";
 
+$colorMain: #ffffff;
 $colorFontMain: #39434c;
 $colorFontDark: #000;
 $colorFontLight: #fff;
