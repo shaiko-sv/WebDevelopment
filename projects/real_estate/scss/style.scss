@@ -61,4 +61,30 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.eot');
+  src: local('HelveticaNeueCyr-Thin'),
+  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.woff') format('woff'),
+  url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ALS Rubl';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ALS Rubl'), url('../fonts/ASLRubl/rouble.woff') format('woff');
+}
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('../fonts/MinionPro/MinionPro-Regular.eot');
+  src: local('Minion Pro Regular'), local('MinionPro-Regular'),
+  url('../fonts/MinionPro/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MinionPro/MinionPro-Regular.woff') format('woff'),
+  url('../fonts/MinionPro/MinionPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
