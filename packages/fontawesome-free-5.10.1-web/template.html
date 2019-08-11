@@ -1,0 +1,62 @@
+https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+
+Using Web Fonts with CSS
+
+<head>
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+</head>
+<body>
+<i class="fas fa-user"></i> <!-- uses solid style -->
+<i class="far fa-user"></i> <!-- uses regular style -->
+<i class="fal fa-user"></i> <!-- uses light style -->
+<!--brand icon-->
+<i class="fab fa-github-square"></i> <!-- uses brands style -->
+</body>
+
+Using SVG with JavaScript
+
+<head>
+    <script defer src="/your-path-to-fontawesome/js/all.js"></script> <!--load all styles -->
+</head>
+<body>
+<i class="fas fa-user"></i> <!-- uses solid style -->
+<i class="far fa-user"></i> <!-- uses regular style -->
+<i class="fal fa-user"></i> <!-- uses light style -->
+<!--brand icon-->
+<i class="fab fa-github-square"></i> <!-- uses brands style -->
+</body>
+
+Using Just Certain Styles
+
+Icon Style	        Web Font Filename	CSS Filename	Availability
+Font Awesome Brands	fa-brands-400.*	    brands.css	    Free
+Font Awesome Solid	fa-solid-900.*	    solid.css	    Free
+
+<head>
+    <!-- Our project just needs Font Awesome Solid + Brands -->
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+<i class="fas fa-user"></i> <!-- uses solid style -->
+<i class="fab fa-github-square"></i> <!-- uses brand style -->
+</body>
+
+Mind the Paths in Web Fonts
+We recommend keeping the /webfonts and /css folders in the same directory. If you don't, you'll need to change the path to the web fonts mentioned in each style's CSS file.
+
+Icon Style	        JS Filename	Availability
+Font Awesome Brands	brands.js	Free
+Font Awesome Solid	solid.js	Free
+
+<head>
+    <!-- Our project just needs Font Awesome Solid + Brands -->
+    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+</head>
+<body>
+<i class="fas fa-user"></i> <!-- uses solid style -->
+<i class="fab fa-github-square"></i> <!-- uses brand style -->
+</body>
