@@ -1,0 +1,11 @@
+.b-body {
+
+  &_fontMain {
+    font: $fontMain;
+    color: $colorFontMain;
+  }
+
+  &_backgroundMain {
+    background-color: $colorMain;
+  }
+}
