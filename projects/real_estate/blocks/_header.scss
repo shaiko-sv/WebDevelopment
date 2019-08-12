@@ -1,0 +1,19 @@
+.b-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 $paddingMin;
+  > :not(:first-child) {
+    margin-left: 1rem;
+  }
+  &__item {
+    padding: 1rem 0;
+
+    &_modification {
+    }
+  }
+
+  &_modification {
+  }
+}
