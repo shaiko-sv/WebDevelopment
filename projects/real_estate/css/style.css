@@ -14,6 +14,32 @@
   background-color: #ffffff;
 }
 
+.b-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.b-nav_vertical {
+  flex-direction: column;
+}
+.b-nav_themeBlue {
+  background-color: #2b1c64;
+}
+.b-nav__item {
+  flex-basis: 164.2857142857px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1rem 0;
+}
+.b-nav__item_active {
+  background-color: #ac2c23;
+}
+.b-nav__item:hover {
+  color: #f2f2f2;
+  background-color: #ac2c23;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "MuseoSansCyrl";
   src: url("../fonts/MuseoSans/MuseoSansCyrl-500.eot");
