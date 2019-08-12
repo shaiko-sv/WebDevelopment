@@ -1,45 +1,3 @@
-.b-html {
-  max-width: 1920px;
-  margin: 0 auto;
-}
-.b-html_backgroundLightGray {
-  background-color: lightgray;
-}
-
-.b-body_fontMain {
-  font: normal 1rem "HelveticaNeueCyr", sans-serif;
-  color: #39434c;
-}
-.b-body_backgroundMain {
-  background-color: #ffffff;
-}
-
-.b-nav {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-.b-nav_vertical {
-  flex-direction: column;
-}
-.b-nav_themeBlue {
-  background-color: #2b1c64;
-}
-.b-nav__item {
-  flex-basis: 164.2857142857px;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 1rem 0;
-}
-.b-nav__item_active {
-  background-color: #ac2c23;
-}
-.b-nav__item:hover {
-  color: #f2f2f2;
-  background-color: #ac2c23;
-  text-decoration: none;
-}
-
 @font-face {
   font-family: "MuseoSansCyrl";
   src: url("../fonts/MuseoSans/MuseoSansCyrl-500.eot");
@@ -102,8 +60,131 @@
   font-weight: normal;
   font-style: normal;
 }
+.b-html {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.b-html_backgroundLightGray {
+  background-color: lightgray;
+}
+
+.b-body_fontMain {
+  font: normal 1rem "HelveticaNeueCyr", sans-serif;
+  color: #39434c;
+}
+.b-body_backgroundMain {
+  background-color: #ffffff;
+}
+
+.b-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.b-nav_vertical {
+  flex-direction: column;
+}
+.b-nav_themeBlue {
+  background-color: #2b1c64;
+}
+.b-nav__item {
+  flex-basis: 188.9285714286px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1rem 0;
+}
+.b-nav__item_active {
+  background-color: #ac2c23;
+}
+.b-nav__item:hover {
+  color: #f2f2f2;
+  background-color: #ac2c23;
+  text-decoration: none;
+}
+
+.b-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.b-header > :not(:first-child) {
+  margin-left: 1rem;
+}
+.b-header__item {
+  padding: 1rem 0;
+}
+.b-social {
+  display: flex;
+}
+.b-social :not(:first-child) {
+  margin-left: 2.375rem;
+}
+.b-social__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
+}
+.b-social__icon_themeRed {
+  color: #e31e24;
+  transition-duration: 0.5s;
+}
+.b-social__icon_themeRed:hover {
+  color: #fff;
+  background-color: #e31e24;
+  text-decoration: none;
+}
+.b-address {
+  display: flex;
+}
+.b-address__icon_style {
+  color: #e31e24;
+  font-size: 1.2rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+}
+.b-address__text_style {
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.b-address__text_style > * {
+  color: #000;
+  margin: 0;
+}
+.b-address__phone_style {
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.5rem;
+}
+.b-address__email_style {
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  text-decoration: underline;
+}
+
 * {
   outline: 1px dashed gray;
+}
+
+.slogan {
+  color: #000;
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+
+.workSchedule {
+  color: #7b7986;
+  font: normal 1rem "HelveticaNeueCyr", sans-serif;
+  line-height: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

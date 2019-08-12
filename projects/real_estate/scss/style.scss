@@ -1,9 +1,5 @@
 //_variables import
 @import "variables";
-//BEM import
-@import "../blocks/html";
-@import "../blocks/body";
-@import "../blocks/nav";
 // connecting fonts
 @font-face {
   font-family: 'MuseoSansCyrl';
@@ -91,8 +87,28 @@
   font-weight: normal;
   font-style: normal;
 }
+//BEM import
+@import "../blocks/html";
+@import "../blocks/body";
+@import "../blocks/nav";
+@import "../blocks/header";
+@import "../blocks/social";
+@import "../blocks/address";
+
+// main CSS code
 * {
   outline: 1px dashed gray; //use only for test
 }
-
+.slogan {
+  color: $colorFontDark;
+  font: $fontSecondary700;
+  font-size: 1.125rem;
+  line-height: 1.125rem
+}
+.workSchedule {
+  color: $colorFontSecondary;
+  font: $fontMainRoman;
+  line-height: 1.5rem;
+  padding-left: 1.5rem;
+}
 
