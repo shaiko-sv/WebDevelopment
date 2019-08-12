@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "Museo Sans Cyrl 500";
+  font-family: "MuseoSansCyrl";
   src: url("../fonts/MuseoSans/MuseoSansCyrl-500.eot");
   src: local("MuseoSansCyrl-500"), url("../fonts/MuseoSans/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSans/MuseoSansCyrl-500.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Museo Sans Cyrl 700";
+  font-family: "MuseoSansCyrl";
   src: url("../fonts/MuseoSans/MuseoSansCyrl-700.eot");
   src: local("MuseoSansCyrl-700"), url("../fonts/MuseoSans/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSans/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSans/MuseoSansCyrl-700.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
@@ -17,13 +17,6 @@
   src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot");
   src: local("HelveticaNeueCyr-Bold"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf") format("truetype");
   font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "HelveticaNeueCyr";
-  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot");
-  src: local("HelveticaNeueCyr-Light"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf") format("truetype");
-  font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -39,6 +32,159 @@
   src: local("HelveticaNeueCyr-Roman"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot");
+  src: local("HelveticaNeueCyr-Light"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.eot");
+  src: local("HelveticaNeueCyr-Thin"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ALS Rubl";
+  font-style: normal;
+  font-weight: normal;
+  src: local("ALS Rubl"), url("../fonts/ASLRubl/rouble.woff") format("woff");
+}
+@font-face {
+  font-family: "Minion Pro";
+  src: url("../fonts/MinionPro/MinionPro-Regular.eot");
+  src: local("Minion Pro Regular"), local("MinionPro-Regular"), url("../fonts/MinionPro/MinionPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MinionPro/MinionPro-Regular.woff") format("woff"), url("../fonts/MinionPro/MinionPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.b-html {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.b-html_backgroundLightGray {
+  background-color: lightgray;
+}
+
+.b-body_fontMain {
+  font: normal 1rem "HelveticaNeueCyr", sans-serif;
+  color: #39434c;
+}
+.b-body_backgroundMain {
+  background-color: #ffffff;
+}
+
+.b-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.b-nav_vertical {
+  flex-direction: column;
+}
+.b-nav_themeBlue {
+  background-color: #2b1c64;
+}
+.b-nav__item {
+  flex-basis: 188.9285714286px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1rem 0;
+}
+.b-nav__item_active {
+  background-color: #ac2c23;
+}
+.b-nav__item:hover {
+  color: #f2f2f2;
+  background-color: #ac2c23;
+  text-decoration: none;
+}
+
+.b-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.b-header > :not(:first-child) {
+  margin-left: 1rem;
+}
+.b-header__item {
+  padding: 1rem 0;
+}
+.b-social {
+  display: flex;
+}
+.b-social :not(:first-child) {
+  margin-left: 2.375rem;
+}
+.b-social__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
+}
+.b-social__icon_themeRed {
+  color: #e31e24;
+  transition-duration: 0.5s;
+}
+.b-social__icon_themeRed:hover {
+  color: #fff;
+  background-color: #e31e24;
+  text-decoration: none;
+}
+.b-address {
+  display: flex;
+}
+.b-address__icon_style {
+  color: #e31e24;
+  font-size: 1.2rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+}
+.b-address__text_style {
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.b-address__text_style > * {
+  color: #000;
+  margin: 0;
+}
+.b-address__phone_style {
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.5rem;
+}
+.b-address__email_style {
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  text-decoration: underline;
+}
+
+* {
+  outline: 1px dashed gray;
+}
+
+.slogan {
+  color: #000;
+  font: 700 1rem "MuseoSansCyrl", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+
+.workSchedule {
+  color: #7b7986;
+  font: normal 1rem "HelveticaNeueCyr", sans-serif;
+  line-height: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

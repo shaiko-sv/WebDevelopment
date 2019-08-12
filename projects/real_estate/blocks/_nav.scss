@@ -1,0 +1,31 @@
+.b-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 $paddingMin;
+
+  &_vertical {
+    flex-direction: column;
+  }
+
+  &_themeBlue {
+    background-color: $colorMenu;
+  }
+
+  &__item {
+    flex-basis: $widthMaxContent * 1.15 / $navItemsCount;
+    color: $colorMenuFont;
+    text-align: center;
+    padding: 1rem 0;
+
+    &_active {
+      background-color: $colorMenuActive;
+    }
+
+    &:hover {
+      color: $colorMenuFont;
+      background-color: $colorMenuActive;
+      text-decoration: none;
+    }
+  }
+}
