@@ -36,7 +36,7 @@
 @font-face {
   font-family: "HelveticaNeueCyr";
   src: url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot");
-  src: local("HelveticaNeueCyr-Roman"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff"), url("HelveticaNeueCyr-Roman.ttf") format("truetype");
+  src: local("HelveticaNeueCyr-Roman"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
