@@ -1,0 +1,30 @@
+.b-social {
+  display: flex;
+  :not(:first-child) {
+    margin-left: 2.375rem;
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    &_themeRed {
+      color: $colorSocialIcon;
+      transition-duration: .5s;
+      &:hover {
+        color: $colorFontLight;
+        background-color: $colorSocialIcon;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  &_modification {
+
+  }
+}
