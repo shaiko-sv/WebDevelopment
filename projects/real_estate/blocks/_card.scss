@@ -1,0 +1,25 @@
+.b-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  transition-duration: .5s;
+  min-width: 16%;
+  min-height: 23%;
+  &_hoverRed {
+    &:hover {
+      color: $colorFontLight;
+      background-color: $colorMenuActive;
+    }
+    &:visited {
+      color: $colorFontLight;
+    }
+  }
+  &__header {
+    text-transform: uppercase;
+    margin-top: .7rem;
+    margin-bottom: 0;
+  }
+  &__image {
+    width: 50px;
+  }
+}
