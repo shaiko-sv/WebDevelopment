@@ -1,0 +1,46 @@
+@mixin beveled-corners($bg, $tl:0, $tr:$tl, $br:$tl, $bl:$tr) {
+  background: $bg;
+  background:
+          linear-gradient(135deg, transparent $tl, $bg 0)
+          top left,
+          linear-gradient(225deg, transparent $tr, $bg 0)
+          top right,
+          linear-gradient(-45deg, transparent $br, $bg 0)
+          bottom right,
+          linear-gradient(45deg, transparent $bl, $bg 0)
+          bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+@mixin beveled-corners-tl-br($_bg, $_topLeft:0, $_bottomRight:$_topLeft) {
+  background: $_bg;
+  background:
+          linear-gradient(135deg, transparent $_topLeft, $_bg 0)
+          top left,
+          //linear-gradient(225deg, transparent $tr, $bg 0)
+          //top right,
+          linear-gradient(-45deg, transparent $_bottomRight, $_bg 0)
+          bottom right;
+          //linear-gradient(45deg, transparent $bl, $bg 0)
+          //bottom left;
+  background-size: 100% 51%;
+  background-repeat: no-repeat;
+}
+.b-beveledCorners {
+  display: block;
+  &_all4 {
+    @include beveled-corners($_bgForBeveltedCorners, $_corner, $_corner, $_corner, $_corner)
+  }
+  &_TopLeftBottomRight {
+    @include beveled-corners-tl-br($_bgForBeveltedCorners, $_corner); //@include beveled-corners(#58a, 15px, 5px);
+  }
+  &_out {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+  }
+  &_in {
+    max-width: 180px;
+    max-height: 180px;
+  }
+}
