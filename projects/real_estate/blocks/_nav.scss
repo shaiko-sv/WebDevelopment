@@ -17,6 +17,7 @@
     color: $colorMenuFont;
     text-align: center;
     padding: 1rem 0;
+    transition-duration: .5s;
 
     &_active {
       background-color: $colorMenuActive;

@@ -1,0 +1,12 @@
+.b-slider {
+  display: flex;
+  object-fit: cover;
+  margin: 0 auto;
+  padding: 0 $paddingMin;
+  &__image {
+    background: url('../img/sliderImage.jpg') center center no-repeat;
+  }
+  &__item {
+    position: absolute;
+  }
+}

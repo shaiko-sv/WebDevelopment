@@ -94,6 +94,11 @@
 @import "../blocks/header";
 @import "../blocks/social";
 @import "../blocks/address";
+@import "../blocks/slider";
+@import "../blocks/beveledCorners";
+@import "../blocks/container";
+@import "../blocks/card";
+@import "../blocks/button";
 
 // main CSS code
 * {
@@ -111,4 +116,72 @@
   line-height: 1.5rem;
   padding-left: 1.5rem;
 }
+.b-slider {
+  min-height: 563px;
+}
+.b-containerChaos {
+  .b-beveledCorners_TopLeftBottomRight {
+    left: 20%;
+    top: 10%;
+  }
+  .slogan {
+    width: 41%;
+    left: 43%;
+    top: 5%;
+    color: $colorFontLight;
+    font: $fontMainBlack;
+    font-size: 3.375rem;
+    line-height: 4.8rem;
+    .buy,
+    .estate {
+      display: inline;
+      padding: .5rem;
+    }
+    .estate {
+    margin-left: 4.3rem;
+    }
+    .themeRed {
+      background-color: $colorMenuActive;
+    }
+  }
+  .b-card__header {
+    color: $colorFontLight;
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.58);
+    font: $fontMainBlack;
+    font-size: 1.125rem;
+    line-height: 1.333rem;
+  }
+  .house {
+    left: 7%;
+    top: 57%;
+  }
+  .fence {
+    left: 29%;
+    top: 57%;
+  }
+  .skyline {
+    left: 41%;
+    top: 32.9%;
+  }
+  .address {
+    left: 52%;
+    top: 57%;
+  }
+  .new {
+    left: 66%;
+    top: 32.9%;
+  }
+  .shop {
+    left: 75%;
+    top: 57%;
+  }
+  .b-buttonRound {
+    left: calc(50% - 9.5rem);
+    bottom: 5%;
+    color: $colorFontLight;
+    font: $fontMainRoman;
+    font-size: 1.125rem;
+  }
+}
+
 

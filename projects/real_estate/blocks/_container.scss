@@ -1,0 +1,10 @@
+.b-containerChaos {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: calc(60% + 4rem);
+
+  &__item {
+    position: absolute;
+  }
+}
