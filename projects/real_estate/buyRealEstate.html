@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Our project just needs Font Awesome Brands -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="packages/FontAwesome/css/fontawesome.css" rel="stylesheet">
     <link href="packages/FontAwesome/css/brands.css" rel="stylesheet">
     <link href="packages/FontAwesome/css/solid.css" rel="stylesheet">
@@ -97,8 +99,47 @@
         </div>
     </section>
     <div class="b-filter">
-            <h1>Добрый вечер Алина.</h1>
+        <form action="#" class="b-filter__form">
+            <fieldset>
+                <select name="action">
+                    <option value="buy">Купить</option>
+                    <option value="sell">Продать</option>
+                    <option value="rent">Аренда</option>
+                </select>
+                <select name="district">
+                    <option value="district1">Райно 1</option>
+                    <option value="district2">Район 2</option>
+                    <option value="district3">Район 3</option>
+                </select>
+                <select name="estateType">
+                    <option value="estateType1">Дом</option>
+                    <option value="estateType2">Квартира</option>
+                    <option value="estateType3">Лофт</option>
+                </select>
+                <select name="roomQuantity">
+                    <option value="room1">1</option>
+                    <option value="room2">2</option>
+                    <option value="room3">3</option>
+                </select>
+                <select name="minPrice">
+                    <option value="minPrice1">10000</option>
+                    <option value="minPrice2">20000</option>
+                    <option value="minPrice3">30000</option>
+                </select>
+                <select name="maxPrice">
+                    <option value="maxPrice1">20000</option>
+                    <option value="maxPrice2">30000</option>
+                    <option value="maxPrice3">50000</option>
+                </select>
+                <div>
+                    <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                    <input type="text" class="searchByAddress" placeholder="Поиск по адресу">
+                </div>
+            </fieldset>
+                <input type="submit" value="Подробнее" class="b-buttonRound b-buttonRound_red">
+        </form>
     </div>
+
     <main class="b-content">
 
     </main>

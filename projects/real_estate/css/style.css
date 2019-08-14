@@ -60,6 +60,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  src: url("../packages/FontAwesome/webfonts/fa-solid-900.eot");
+  font-weight: normal;
+  font-style: normal;
+}
 .b-html {
   max-width: 1920px;
   margin: 0 auto;
@@ -261,6 +267,18 @@
   height: 3.5rem;
 }
 
+.b-filter {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.b-filter__form {
+  display: flex;
+  width: 1182px;
+}
+
 * {
   outline: 1px dashed gray;
 }
@@ -344,6 +362,33 @@
   color: #fff;
   font: normal 1rem "HelveticaNeueCyr", sans-serif;
   font-size: 1.125rem;
+}
+
+.b-filter .b-buttonRound {
+  float: right;
+}
+.b-filter fieldset {
+  width: 100%;
+}
+
+.searchByAddress {
+  height: 20px;
+}
+
+i.fa {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
+  float: left;
+  color: #ac2c23;
+}
+
+i.fa + .searchByAddress {
+  padding-left: 26px;
 }
 
 /*# sourceMappingURL=style.css.map */

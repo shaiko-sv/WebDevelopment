@@ -1,0 +1,11 @@
+.b-filter {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 $paddingMin;
+  justify-content: center;
+  align-items: center;
+  &__form {
+    display: flex;
+    width: $widthMaxContent + 2 * 16px;
+  }
+}
