@@ -194,21 +194,31 @@
 .b-filter {
   .b-buttonRound {
     float: right;
+    margin: auto 3rem;
   }
   fieldset {
     width: 100%;
   }
 }
+.searchByAddressWrap {
+  clear: both;
+  padding-top: 1.75rem;
+}
 .searchByAddress {
-  height: 20px;
+  width: 100%;
+  height: 2rem;
+  clear: both;
+  box-shadow: inset 0 0 0.438rem rgba(0, 0, 0, 0.24);
+  border-radius: 0.25rem;
+  border: 0.063rem solid $colorFontLight;
 }
 
 i.fa {
-  width: 26px;
-  height: 26px;
-  line-height: 26px;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
   text-align: center;
-  margin-right: -26px;
+  margin-right: -2rem;
   position: relative;
   z-index: 1;
   float: left;
@@ -216,5 +226,5 @@ i.fa {
 }
 
 i.fa + .searchByAddress {
-  padding-left: 26px;
+  padding-left: 2rem;
 }

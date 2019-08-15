@@ -1,18 +1,23 @@
 .b-buttonRound {
-  box-shadow: 0 0.625rem 0.438rem rgba(43, 28, 100, 0.33);
+  box-shadow: 0 0.425rem 0.638rem rgba(43, 28, 100, 0.33);
   border-radius: 1.75rem;
   border: none;
+  //transition-duration: .2s;
   &:hover {
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonface;
-    border-image: initial;
+    //transform: scale(1.01);
+    box-shadow: 0 0.425rem 0.638rem rgba(200, 200, 200, 0.33);
   }
   &_red {
     background-color: $colorMenuActive;
+    color: $colorFontLight;
   }
   &_sizeG {
     width: 19rem;
     height: 3.5rem;
+  }
+  &_sizeM {
+    width: 8.5rem;
+    height: 2.2rem;
+    border-radius: 0.75rem;
   }
 }

@@ -4,8 +4,40 @@
   padding: 0 $paddingMin;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
   &__form {
     display: flex;
+    border-radius: 0.25rem;
+    background-color: $colorAdvert;
     width: $widthMaxContent + 2 * 16px;
+    padding: 9px 20px 20px 20px;
+  }
+  &__select {
+    float:left;
+    appearance:none;
+    width: calc(94% / 6);
+    color: $colorFontMain;
+    font-size: 0.875rem;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    overflow: hidden;
+    background:url('../img/selectArrow.png');
+    background-repeat:no-repeat;
+    border: none;
+    background-position: 95% .9rem;
+    padding: 0 1rem;
+    height: 2.2rem;
+    cursor: pointer;
+    border-right: 1px solid #e1e1e1;
+  }
+  &__label {
+    float:left;
+    width: 3%;
+    font-size: 0.875rem;
+    line-height: 2.2rem;
+    padding-left: .5rem;
+    border: none;
+
   }
 }

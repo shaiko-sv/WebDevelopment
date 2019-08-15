@@ -101,42 +101,44 @@
     <div class="b-filter">
         <form action="#" class="b-filter__form">
             <fieldset>
-                <select name="action">
+                <select class="b-filter__select" name="action">
                     <option value="buy">Купить</option>
                     <option value="sell">Продать</option>
                     <option value="rent">Аренда</option>
                 </select>
-                <select name="district">
+                <select class="b-filter__select" name="district">
                     <option value="district1">Райно 1</option>
                     <option value="district2">Район 2</option>
                     <option value="district3">Район 3</option>
                 </select>
-                <select name="estateType">
+                <select class="b-filter__select" name="estateType">
                     <option value="estateType1">Дом</option>
                     <option value="estateType2">Квартира</option>
                     <option value="estateType3">Лофт</option>
                 </select>
-                <select name="roomQuantity">
-                    <option value="room1">1</option>
-                    <option value="room2">2</option>
-                    <option value="room3">3</option>
+                <select class="b-filter__select" name="roomQuantity">
+                    <option value="room1">1-комнатная</option>
+                    <option value="room2">2-комнатная</option>
+                    <option value="room3">3-комнатная</option>
                 </select>
-                <select name="minPrice">
-                    <option value="minPrice1">10000</option>
-                    <option value="minPrice2">20000</option>
-                    <option value="minPrice3">30000</option>
+                <label for="minPrice" class="b-filter__label">От</label>
+                <select class="b-filter__select" name="minPrice" id="minPrice">
+                    <option value="minPrice1">10000 р.</option>
+                    <option value="minPrice2">20000 р.</option>
+                    <option value="minPrice3">30000 р.</option>
                 </select>
-                <select name="maxPrice">
-                    <option value="maxPrice1">20000</option>
-                    <option value="maxPrice2">30000</option>
-                    <option value="maxPrice3">50000</option>
+                <label for="maxPrice" class="b-filter__label">До</label>
+                <select class="b-filter__select" name="maxPrice" id="maxPrice">
+                    <option value="maxPrice1">20000 р.</option>
+                    <option value="maxPrice2">30000 р.</option>
+                    <option value="maxPrice3">50000 р.</option>
                 </select>
-                <div>
+                <div class="searchByAddressWrap">
                     <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
                     <input type="text" class="searchByAddress" placeholder="Поиск по адресу">
                 </div>
             </fieldset>
-                <input type="submit" value="Подробнее" class="b-buttonRound b-buttonRound_red">
+                <input type="submit" value="Подробнее" class="b-buttonRound b-buttonRound_red b-buttonRound_sizeM">
         </form>
     </div>
 
