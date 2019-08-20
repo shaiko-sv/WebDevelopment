@@ -183,8 +183,64 @@
     font-size: 1.125rem;
   }
 }
-.test {
-  color: #000000;
+.b-filter{
+  background-image: url("img/setka.jpg");
+  &__sellMainTextWrap{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  &_padding{
+    padding: 50px;
+    text-align: center;
+    color: $colorFontMain;
+    font: $fontMainBlack;
+    font-size: 48px;
+    line-height: 70px;
+  }
+  &_sellTextModifier{
+    color: $colorFontMain;
+    font-family: $fontMain;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  &__sellListSecond{
+    padding: 25px;
+    font-family: $fontMainLight;
+  }
+  & p:nth-child(n+2){
+    margin-top: 40px;
+  }
+  &__sellItemThird{
+    line-height: 25px;
+  }
+  &__algorithmCaption{
+    text-align: center;
+    padding: 59px;
+    color: $colorFontMain;
+    font: $fontMainBlack;
+    font-size: 48px;
+  }
+  &__algorithmWrap{
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  &__algoBlocksWrap{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__algoBlock{
+    margin-top: 50px;
+  }
+  &__algoText{
+    padding-top: 15px;
+  }
+}
+.arrowDivider{
+  display: flex;
 }
 
 
